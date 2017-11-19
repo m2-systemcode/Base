@@ -14,5 +14,5 @@
       "SystemCode\\Base\\": ""
     }
   },
-  "minimum-stability": "dev"
+  "minimum-stability": "alpha"
 }
