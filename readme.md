@@ -1,6 +1,6 @@
 # SystemCode Base
 
-##English
+## English
 
 SystemCode Base Module for support and informations for new modules 
 
@@ -14,7 +14,7 @@ php bin/magento module:enable
 php bin/magento setup:upgrade
 ```
 
-##Português
+## Português
 
 Módulo base da SystemCode para suporte e informações de novos módulos
 
