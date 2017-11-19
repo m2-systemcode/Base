@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="SystemCode_Base::systemcode" title="System Code" module="SystemCode_Base" sortOrder="12" resource="Magento_Backend::content" />
+        <add id="SystemCode_Base::title" title="Information &amp; Communication" translate="title" module="SystemCode_Base" sortOrder="50" parent="SystemCode_Base::systemcode" dependsOnModule="SystemCode_Base" resource="Magento_Backend::content"/>
+        <add id="SystemCode_Base::extensions" title="More Extensions" translate="title" module="SystemCode_Base" sortOrder="50" parent="SystemCode_Base::title" action="extensions/index/index" resource="Magento_Backend::content"/>
+        <add id="SystemCode_Base::support" title="Support" translate="title" module="SystemCode_Base" sortOrder="100" parent="SystemCode_Base::title" action="support/index/index" resource="Magento_Backend::content"/>
+    </menu>
+</config>

@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<page layout="admin-1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <title>More Extensions</title>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="SystemCode\Base\Block\Adminhtml\Base" name="base_extensions" template="SystemCode_Base::extensions/index.phtml"/>
+        </referenceContainer>
+    </body>
+</page>

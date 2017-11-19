@@ -1,0 +1,9 @@
+.admin__menu .item-systemcode > a::before{
+  content: url('images/menu.svg') !important;
+}
+
+
+.admin__menu .item-systemcode._active>a::before,
+.admin__menu .item-systemcode > a:hover::before{
+  content: url('images/menu-hover.svg') !important;
+}
