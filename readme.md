@@ -1,29 +1,57 @@
-# SystemCode Base
+# System Code Base
 
-## English
+## About Module
 
-SystemCode Base Module for support and informations for new modules 
+Magento 2 base module used for others System Code modules.
 
-### How install
+### How to install
 
-#### By Composer
-
-```sh
+#### ✓ Install by Composer (recommended)
+```
 composer require systemcode/base
 php bin/magento module:enable
 php bin/magento setup:upgrade
 ```
 
-## Português
+#### ✓ Install Manually
+- Copy module to folder app/code/SystemCode/Base and run commands:
+```
+php bin/magento setup:di:compile
+php bin/magento setup:upgrade
+```
 
-Módulo base da SystemCode para suporte e informações de novos módulos
+### License
+OSL-3.0
 
-### Como instalar
+### Authors
+* [Eduardo Diogo Dias](https://github.com/eduardoddias)
 
-#### Via Composer
 
-```sh
+---
+
+
+## Sobre o Módulo
+
+Módulo em Magento 2 utilizado por outros módulos da System Code.
+
+### Como Instalar
+
+#### ✓ Instalação via Composer (recomendado)
+```
 composer require systemcode/base
 php bin/magento module:enable
 php bin/magento setup:upgrade
 ```
+
+#### ✓ Instalação Manual
+- Copy module to folder app/code/SystemCode/Base and run commands:
+```
+php bin/magento setup:di:compile
+php bin/magento setup:upgrade
+```
+
+### Licença
+OSL-3.0
+
+### Autores
+* [Eduardo Diogo Dias](https://github.com/eduardoddias)

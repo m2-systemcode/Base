@@ -5,9 +5,10 @@
         <resources>
             <resource id="Magento_Backend::admin">
                 <resource id="SystemCode_Base::systemcode" title="System Code" sortOrder="12">
-                    <resource id="SystemCode_Base::title" title="Information &amp; Communication" sortOrder="50"/>
-                    <resource id="SystemCode_Base::extensions" title="More Extensions" sortOrder="50"/>
-                    <resource id="SystemCode_Base::support" title="Support" sortOrder="100"/>
+                    <resource id="SystemCode_Base::title" title="Information &amp; Communication" sortOrder="50">
+                        <!--resource id="SystemCode_Base::extensions" title="More Extensions" sortOrder="50"/!-->
+                        <resource id="SystemCode_Base::support" title="Support" sortOrder="100"/>
+                    </resource>
                 </resource>
             </resource>
         </resources>
