@@ -1,0 +1,14 @@
+.config-nav-block.systemcode-config-tab .admin__page-nav-title {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.config-nav-block.systemcode-config-tab .admin__page-nav-title::before {
+    content: '';
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    background: url('../images/logo.svg') center center no-repeat;
+    background-size: contain;
+}
